@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
     {
       id: 'e3',
-      title: 'Car Insurance',
+      title: 'Vehicle Insurance',
       amount: 294.67,
       date: new Date(2021, 2, 28),
     },
@@ -21,6 +21,12 @@ function App() {
       title: 'New Desk (Wooden)',
       amount: 450,
       date: new Date(2021, 5, 12),
+    },
+    {
+      id: 'e5',
+      title: 'Vehicle (Access)',
+      amount: 105000,
+      date: new Date(2022, 9, 7),
     },
   ];
 
